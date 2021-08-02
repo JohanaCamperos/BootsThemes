@@ -1,0 +1,50 @@
+body{
+    background-image: url(./assets/bodyindex.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
+}
+
+h2, h3{
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    color: #dbe4cf;
+}
+
+p, span, li, legend, label{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #4a73b1;
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: white;
+    }
+
+    nav.bg-info{
+        display: flex;
+        justify-content: center;
+    }
+
+    section.p-5{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div.col-4{
+        display: none;
+    }
+}
+
+
+
+
